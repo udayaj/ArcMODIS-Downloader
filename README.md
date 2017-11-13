@@ -76,6 +76,8 @@ If you use a shapefile for specifying the study area:
   md.execute()
 ```
 
+Change the `study_area_wgs84=r".\data\CONUS_border_wgs84.shp"` parameter appropriately to provide your study area as a polygon shapefile.
+
 ## Support for Non-ArcGIS/Unix like envionrmnets
 
 You can use GDAL/OGR with Shapely to do the necessary changes. Think about alternative ways for reading attribute tables, clipping, and reading spatial reference information of shapefiles.
